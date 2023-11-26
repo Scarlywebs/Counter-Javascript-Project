@@ -1,0 +1,34 @@
+
+.count-card{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 15rem auto;
+  border-radius: 20px;
+  border-radius: 20px;
+  background: #27304F;
+  box-shadow:  13px 13px 29px #1c233a,-13px -13px 29px #323d64;
+  padding: 5rem 3rem 8rem 3rem;
+  justify-items: center;
+  align-items: center;
+}
+h1{
+  font-size: var(--font-size-40px);
+}
+h2{
+  font-size: var(--font-size-100px);
+}
+.button__group{
+  display: flex;
+  max-width: 250px;
+  margin: 4rem 2rem 4rem;
+  justify-content: space-around;
+}
+button{
+  color: #7c839c;
+  background-color: unset;
+  cursor: pointer;
+}
+button img{
+  max-width: 30px;
+}
