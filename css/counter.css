@@ -47,12 +47,19 @@ h2{
 }
 button{
   color: #7c839c;
+  font-size: 1.8rem;
+  font-weight: 600;
   background-color: unset;
   cursor: pointer;
+}
+button:hover{
+  color: var(--softblue);
 }
 button img{
   max-width: 30px;
 }
 #saved-entries{
   font-weight: 700;
+  text-align: center;
+  line-height: 1.75;
 }
