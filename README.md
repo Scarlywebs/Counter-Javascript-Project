@@ -9,4 +9,4 @@ This project is a simple counter application built with JavaScript. It allows us
 - **Reset**: The `reset` function sets the count back to zero and updates the display accordingly.
 - And a "Previous Entries" section showing the last enter numbers.
 
-This project is a great example of basic DOM manipulation in JavaScript. It's perfect for beginners looking to understand how to interact with web page elements using JavaScript.
+![Counter Preview](imgs/counter-preview.jpg)

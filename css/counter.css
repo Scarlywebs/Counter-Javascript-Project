@@ -41,14 +41,16 @@ h2{
 }
 .button__group{
   display: flex;
-  max-width: 250px;
-  margin: 4rem 2rem 4rem;
-  justify-content: space-around;
+  max-width: 240px;
+  margin: 4rem auto 4rem;
+  justify-content:space-between;
+  align-self: center;
 }
 button{
   color: #7c839c;
   font-size: 1.8rem;
   font-weight: 600;
+  text-align: center;
   background-color: unset;
   cursor: pointer;
 }
@@ -57,6 +59,7 @@ button:hover{
 }
 button img{
   max-width: 30px;
+  margin-bottom: 1rem;
 }
 #saved-entries{
   font-weight: 700;
