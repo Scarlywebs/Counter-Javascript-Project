@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: BakBak;
+  src: url(/fonts/BakbakOne-Regular.ttf);
+}
+
+body{
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-base);
+  color: var(--textwhite);
+  background-color: var(--bgblue);
+}
+
+/** Main Content Styling */
+main{
+  width: 100%;
+  max-width: 1200px;
+  margin: 5rem auto 15rem;
+  align-items: center;
+}
 
 .count-card{
   display: flex;
@@ -31,4 +52,7 @@ button{
 }
 button img{
   max-width: 30px;
+}
+#saved-entries{
+  font-weight: 700;
 }

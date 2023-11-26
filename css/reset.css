@@ -14,7 +14,7 @@ body{
   font-size: 1.8rem;
   line-height:1.15;
 }
-div,section,main{
+div, section, main{
   width:100%;
   height: auto;
 }
@@ -30,32 +30,6 @@ ul, li{
   margin:0;
   list-style-type: none;
 }
-/** Quotes */
-blockquote,q{
-  quotes:none
-}
-blockquote:before,blockquote:after,
-q:before,q:after{
-  content:none
-}
-/** Miscellaneous */
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section{
-  display:block
-}
-a,abbr,acronym,b,bdo,big,br,button,cite,
-code,dfn,em,i,img,input,kbd,label,map,
-object,output,q,samp,select,span,strong,
-sub,sup,textarea,time,tt,var>{
-  display:inline-block;
-}
-hr{
-  display:block;
-  height:2px;
-  width: 100%;
-  border:0;
-  background-color: #ffffff;
-}
 img {
   display: block;
   max-width: 100%;
@@ -65,22 +39,13 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* Forms */
-button,input,optgroup,
-select,textarea {
-  font-family: inherit;
-  font-size: inherit;
-  border-style: none;
+button{
+  border: none;
 }
-button, input { 
-  overflow: visible;
-}
-button, select { 
-  text-transform: none;
-}
-legend {
-  color: inherit; 
-  max-width: 100%;
-  white-space: normal; 
+hr{
+  display:block;
+  height:2px;
+  width: 100%;
+  border:0;
+  background-color: #ffffff;
 }
