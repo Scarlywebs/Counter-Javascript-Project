@@ -1,33 +1,31 @@
 
-let countNumber = document.getElementById("count-number")
-let saveNumber = document.getElementById("saved-entries")
-
-let incrementButton = document.getElementById("increment-btn");
-incrementButton.onclick = increment;
-let saveButton = document.getElementById("save-btn");
-saveButton.onclick = save;
-let resetButton = document.getElementById("reset-btn");
-resetButton.onclick = reset;
-
 let count = 0
-
-function increment(){
-  count += + 1
+let countNumber = document.getElementById("count-number")
+let incrementButton = document.getElementById("increment-btn")
+incrementButton.onclick = increment
+function increment() {  
+  count += 1
   countNumber.innerText = count
 }
 
-function save(){
-  let countTotal = count + "-"
-  saveNumber.innerText += countTotal
-  countNumber.innerText = 0
-  count = 0
+let saveNumber = document.getElementById("save-btn")
+let saveEntries = document.getElementById("saved-entries")
+saveNumber.onclick = save
+function save() {
+  saveEntries.innerText += count + " - "
 }
 
+let resetButton = document.getElementById("reset-btn")
+resetButton.onclick = reset
 function reset() {
-  count = 0;
-  countNumber.innerText = count;
-  saveNumber.innerText = 'Previous Entries:' + ' ';
+  count = 0
+  countNumber.innerText = count
+  saveEntries.innerText = "Previous Entries:"
 }
+
+
+
+
 
 
 
