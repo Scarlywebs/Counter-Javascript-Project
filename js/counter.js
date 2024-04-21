@@ -11,16 +11,17 @@ function increment() {
 let saveNumber = document.getElementById("save-btn")
 let saveEntries = document.getElementById("saved-entries")
 saveNumber.onclick = save
-function save() {
-  countNumber.innerText = 0
+function save() {  
   saveEntries.textContent += count + " - "
+  countNumber.innerText = 0
+  count = 0
 }
 
 let resetButton = document.getElementById("reset-btn")
 resetButton.onclick = reset
 function reset() {
   count = 0
-  countNumber.innerText = count
+  countNumber.innerText = 0
   saveEntries.innerText = "Previous Entries: "
 }
 
