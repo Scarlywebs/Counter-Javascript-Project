@@ -12,6 +12,7 @@ let saveNumber = document.getElementById("save-btn")
 let saveEntries = document.getElementById("saved-entries")
 saveNumber.onclick = save
 function save() {
+  countNumber.innerText = 0
   saveEntries.textContent += count + " - "
 }
 
