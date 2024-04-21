@@ -12,7 +12,7 @@ let saveNumber = document.getElementById("save-btn")
 let saveEntries = document.getElementById("saved-entries")
 saveNumber.onclick = save
 function save() {
-  saveEntries.innerText += count + " - "
+  saveEntries.textContent += count + " - "
 }
 
 let resetButton = document.getElementById("reset-btn")
@@ -20,7 +20,7 @@ resetButton.onclick = reset
 function reset() {
   count = 0
   countNumber.innerText = count
-  saveEntries.innerText = "Previous Entries:"
+  saveEntries.innerText = "Previous Entries: "
 }
 
 
